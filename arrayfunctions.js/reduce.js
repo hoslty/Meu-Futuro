@@ -14,7 +14,7 @@ console.log(multiplicação)
 
 const MaiorNumber = numeros.reduce((acumulador, numero) => {
     if(acumulador < numero && numero>acumulador){
-        return numerox
+        return numero
     }
 
     return acumulador
