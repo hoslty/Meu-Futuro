@@ -1,6 +1,6 @@
 const cliente = {
     nome: "Maria",
-    telefone: "99999-9999"
+    telefone: "99999-9999",
 };
 
 const {nome,telefone, email = 'email nao cadastrado'} = cliente
